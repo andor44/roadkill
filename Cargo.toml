@@ -1,0 +1,23 @@
+[package]
+name = "roadkill"
+version = "0.1.0"
+authors = ["Andor Uhlár <andor44@gmail.com>"]
+
+[dependencies]
+
+# CLI UI
+rustty = "*"
+
+# MP3 decoding
+simplemad = "*"
+
+# Audio playback
+cpal = "*"
+
+# HTTP communication
+hyper = "*"
+
+# Serde (serialization, JSON)
+serde = "*"
+serde_json = "*"
+serde_macros = "*"
